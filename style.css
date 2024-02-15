@@ -11,7 +11,7 @@
   margin: auto;
 }
 .img-box {
-  background-image: url(Rectangle\ 2\(1\).svg);
+  background-image: url(Rectangle\2\(1\).svg);
   background-position: center;
   height: 1000px;
   width: 100%;
@@ -54,7 +54,6 @@
   background-color: black;
   display: flex;
   justify-content: center;
- 
 }
 .txt3 p {
   color: white;
