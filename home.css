@@ -98,14 +98,14 @@ body {
 }
 .iteam {
   width: 300px;
-  height: 400px;
+  height: 350px;
   overflow: hidden;
-  border: 1px solid black;
+  border: 1px solid rgba(0, 0, 0, 0.377);
   border-radius: 30px;
 }
 .product-image {
   width: 300px;
-  height: 400;
+  height: 350;
 }
 .product-image img {
   width: 100%;
@@ -122,22 +122,27 @@ body {
   width: 100%;
   height: auto;
   display: flex;
-  justify-content: space-around;
-  line-height: 1.8;
+  
+  line-height: 1.5;
   padding: 20px;
 }
 .info-1 {
-  font-size: 18px;
+  font-size: 17px;
   color: black;
   text-align: left;
+  padding-top: 20px;
 }
 .info-2 {
   font-size: 18px;
   color: black;
   text-align: right;
+  padding-top: 45px;
+  
 }
-@media (max-width: 768px) {
-  .container-2 {
-    padding: 20px;
-  }
-}
+
+
+    
+
+  
+  
+
