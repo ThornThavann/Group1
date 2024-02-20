@@ -19,6 +19,7 @@
 
   background-size: cover;
 }
+
 .txt {
   width: 40%;
   height: 60%;
@@ -26,6 +27,12 @@
   color: white;
   align-items: center;
   display: flex;
+}
+.txt1 h1{
+  font-size: 35px;
+
+}
+.txt1 p{
   font-size: 25px;
 }
 .img-box button {
@@ -59,4 +66,49 @@
 .txt3 p {
   color: white;
   font-size: 20px;
+}
+@media all and (max-width: 600px){
+  .txt1 h1{
+  font-size: 3rem;
+  margin-left: -30px;
+  width: 100%;
+  display: block;
+  width: 400px;
+  margin-top: 250px;
+  
+
+  }
+  .txt1 p{
+    font-size: 1.5rem;
+    margin-left: -30px;
+    margin-top: 40px;
+  }
+  .img-box button{
+    margin-left: -30px;
+    width: 200px;
+    height: 50px;
+  }
+
+}
+@media all and (max-width: 600px) {
+  .txt2{
+    flex-direction: column;
+  }
+  .txt3{
+    margin-top: 100px;
+  }
+
+}
+@media all and (max-width: 600px){
+  .txt1 button{
+    font-size: 15px;
+    height: 70px;
+    width: 200px;
+    margin-top: 150px;
+
+  }
+}
+@media all and (max-width:600px) {
+  
+  
 }
