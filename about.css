@@ -1,0 +1,294 @@
+
+body{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+}
+.box1{
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+    /* background-color: yellow; */
+    margin: auto;
+}
+.textbox1{
+    width: 100%;
+    height: 250px;
+    /* background-color: pink; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+h1.textbox1-1{
+    font-size: 64px;
+    line-height: 1.5;
+}
+p.textbox1-2{
+    font-size: 30px;
+    line-height: 1.5;
+
+}
+.picture{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.picturebox1{
+    margin-top: 100px;
+    background-color: white;
+    width: 80%;
+    height: 700px;
+    margin-left: -200px;
+}
+.picturebox1 img{
+    width: 100%;
+    height: 100%;
+}
+.picturebox2{
+    width:40%;
+    height: 700px;
+    /* background-color:rgb(244, 252, 245); */
+    float: right;
+    margin-top: -700px;
+}
+.picturebox2 img{
+    width: 100%;
+    height: 100%;
+}
+/* .text{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+} */
+p.textleft{
+  
+    line-height: 1.5;
+    font-size: 28px;
+    width: 50%;
+    height: 300px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    /* background-color: rgb(190, 36, 36); */
+    /* margin-top: 20px; */
+}
+p.textright{
+    line-height: 1.5;
+    font-size: 28px;
+    width: 50%;
+    height: 300px;
+    /* background-color: blue; */
+    float: right;
+    margin-top: -330px;
+    /* margin-right: 0; */
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.box2{
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+    /* background-color: purple; */
+    margin: auto;
+    margin-top: 30px;
+}
+h1.textbox4{
+    text-align: center;
+    font-size: 50px;
+
+    /* line-height: 3; */
+    /* background-color: blue; */
+}
+
+.textbox5{
+    margin-right: 0px;
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /* background-color: orange; */
+    /* margin: auto; */
+}
+.textbox5-1{
+    width: 360px;
+    height: 320px;
+    /* background-color: blue; */
+    margin-left: 500px;
+    float: right;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-right: 100px;
+    border-radius: 10px;
+}
+.textbox5-1-1{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    /* background-color: blanchedalmond; */
+    margin-top: 35px;
+}
+.textbox5-1-1-1{
+    width: 100%;
+    height: 30px;
+    margin-left: 1px;
+    /* background-color: rgb(27, 202, 21); */
+    margin-top: 50px;
+    font-size: 25px
+}
+.textbox5-1-1-1 a i{
+    color: black;
+    font-size:30px;
+}
+.textbox5-1-1-1-2{
+    width: 300px;
+    /* background-color: yellow; */
+    margin-left: 50px;
+    margin-top: -30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.textbox5-1-1-2{
+    width: 100%;
+    height: 220px;
+    /* background-color: rgb(194, 114, 17); */
+    font-size: 17px;
+    margin-top: 20px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 1.5;
+}
+ @media screen and (max-width:600px){
+h1.textbox1-1{
+    font-size: 64px;
+    font-weight: 550;
+}
+p.textbox1-2{
+    font-size: 25px;
+}
+.picturebox1{
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
+    margin-top: 120px;
+}
+.picturebox2{
+    float: left;
+   margin-top: 90px;
+   width: 400px;
+   height: 300px;
+   /* background-color: black; */
+}
+.picturebox2 img{
+    margin-left: -105px;
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-top: -50px;
+}
+p.textleft{
+    /* margin-top: -200px; */
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+   font-size: 23px;
+   /* background-color: yellow; */
+   flex-direction: column;
+
+
+}
+p.textright{
+    width: 100%;
+   font-size: 23px;
+   /* background-color: rgb(216, 80, 102); */
+   flex-direction: column;
+   float: left;
+   margin-top: 30px;
+}
+h1.textbox4{
+    width: 50%;
+    text-align: left;
+    font-size: 35px;
+    line-height: 1.5;
+    margin-top: 0px;
+    /* background-color: yellow; */
+}
+.textbox5{
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 30px;
+    
+}
+.textbox5-1-1-2{
+    font-size: 17px;
+}
+
+ }
+
+ @media screen and (max-width:700px){
+    h1.textbox1-1{
+        font-size: 64px;
+        font-weight: 550;
+    }
+    p.textbox1-2{
+        width: 600px;
+        font-size: 25px;
+    }
+    .picturebox1{
+        width: 900px;
+        height: 600px;
+        overflow: hidden;
+        margin-top: 120px;
+    }
+    .picturebox2{
+        float: left;
+       margin-top: 90px;
+       width: 400px;
+       height: 300px;
+       /* background-color: black; */
+    }
+    .picturebox2 img{
+        margin-left: -105px;
+        width: 100%;
+        height: 300px;
+        float: left;
+        margin-top: -50px;
+    }
+    p.textleft{
+        /* margin-top: -200px; */
+        display: flex;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+       font-size: 23px;
+       /* background-color: yellow; */
+       flex-direction: column;
+    
+    
+    }
+    p.textright{
+        width: 100%;
+       font-size: 23px;
+       /* background-color: rgb(216, 80, 102); */
+       flex-direction: column;
+       float: left;
+       margin-top: 30px;
+    }
+    h1.textbox4{
+        width: 50%;
+        text-align: left;
+        font-size: 35px;
+        line-height: 1.5;
+        margin-top: 0px;
+        /* background-color: yellow; */
+    }
+    .textbox5{
+        margin-top: 50px;
+        align-items: center;
+        margin-left: 10px;
+        
+    }
+    .textbox5-1-1-2{
+        font-size: 17px;
+    }
+    
+     }
+    
